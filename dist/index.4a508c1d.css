@@ -1,0 +1,346 @@
+body {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  font-family: Outfit, sans-serif;
+  display: flex;
+}
+
+body input {
+  appearance: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-o-inner-spin-button, input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0;
+}
+
+.container {
+  width: 850px;
+  border: 2px solid #d6e2f0;
+  border-radius: 50px 50px 300px;
+  position: relative;
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 400px;
+    border-radius: 50px 50px 200px;
+  }
+}
+
+.haut {
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .haut {
+    width: 120px;
+  }
+}
+
+.date {
+  height: 550px;
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  .date {
+    height: 300px;
+  }
+}
+
+.form {
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .form {
+    margin-left: 20px;
+  }
+}
+
+.form__input {
+  align-items: center;
+  display: flex;
+}
+
+.form__input__day {
+  color: #7b879d;
+  flex-direction: column;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .form__input__day {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+.form__input__day input {
+  appearance: textfield;
+  height: 50px;
+  width: 175px;
+  border: 2px solid #d6e2f0;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form__input__day input.invalid {
+  border: 2px solid red;
+}
+
+@media (max-width: 950px) {
+  .form__input__day input {
+    width: 80px;
+    font-size: 1.5rem;
+  }
+}
+
+.form__input__month {
+  color: #7b879d;
+  flex-direction: column;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .form__input__month {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+.form__input__month input {
+  appearance: textfield;
+  height: 50px;
+  width: 175px;
+  border: 2px solid #d6e2f0;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form__input__month input.invalid {
+  border: 2px solid red;
+}
+
+@media (max-width: 950px) {
+  .form__input__month input {
+    width: 80px;
+    font-size: 1.5rem;
+  }
+}
+
+.form__input__year {
+  color: #7b879d;
+  flex-direction: column;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .form__input__year {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+.form__input__year input {
+  appearance: textfield;
+  height: 50px;
+  width: 175px;
+  border: 2px solid #d6e2f0;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form__input__year input.invalid {
+  border: 2px solid red;
+}
+
+@media (max-width: 950px) {
+  .form__input__year input {
+    width: 80px;
+    font-size: 1.5rem;
+  }
+}
+
+.form__trait {
+  height: 4px;
+  width: 700px;
+  background-color: #d6e2f0;
+  position: absolute;
+  top: 198px;
+  left: 60px;
+}
+
+@media (max-width: 950px) {
+  .form__trait {
+    width: 300px;
+    top: 180px;
+    left: 30px;
+  }
+}
+
+.form__btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 150px;
+  left: 700px;
+}
+
+@media (max-width: 950px) {
+  .form__btn {
+    width: 70px;
+    height: 70px;
+    top: 148px;
+    left: 300px;
+  }
+}
+
+.form__btn button {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #98fb98;
+  border: none;
+  border-radius: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 950px) {
+  .form__btn button {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
+
+.date {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .date {
+    justify-content: flex-start;
+  }
+}
+
+.date__year {
+  margin-left: 100px;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .date__year {
+    margin-left: 30px;
+  }
+}
+
+.date__year p {
+  margin: 0;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 950px) {
+  .date__year p {
+    font-size: 4.2rem;
+  }
+}
+
+.date__year__value {
+  color: #98fb98;
+}
+
+.date__month {
+  margin-left: 100px;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .date__month {
+    margin-left: 30px;
+  }
+}
+
+.date__month p {
+  margin: 0;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 950px) {
+  .date__month p {
+    font-size: 4.2rem;
+  }
+}
+
+.date__month__value {
+  color: #98fb98;
+}
+
+.date__day {
+  margin-left: 100px;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .date__day {
+    margin-left: 30px;
+  }
+}
+
+.date__day p {
+  margin: 0;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 950px) {
+  .date__day p {
+    font-size: 4.2rem;
+  }
+}
+
+.date__day__value {
+  color: #98fb98;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */
