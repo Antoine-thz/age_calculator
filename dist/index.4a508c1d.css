@@ -1,4 +1,5 @@
 body {
+  background-color: #f0f0f0;
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
@@ -26,7 +27,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 
 .container {
   width: 850px;
-  border: 2px solid #d6e2f0;
+  background-color: #fff;
   border-radius: 50px 50px 300px;
   position: relative;
 }
@@ -81,7 +82,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__day {
-  color: #7b879d;
+  color: #716f6f;
   flex-direction: column;
   margin-left: 30px;
   font-size: 1.5rem;
@@ -100,7 +101,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
   appearance: textfield;
   height: 50px;
   width: 175px;
-  border: 2px solid #d6e2f0;
+  border: 2px solid #dbdbdb;
   border-radius: 15px;
   margin-top: 5px;
   padding-left: 10px;
@@ -109,7 +110,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__day input.invalid {
-  border: 2px solid red;
+  border: 2px solid #f08080;
 }
 
 @media (max-width: 950px) {
@@ -120,7 +121,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__month {
-  color: #7b879d;
+  color: #716f6f;
   flex-direction: column;
   margin-left: 30px;
   font-size: 1.5rem;
@@ -139,7 +140,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
   appearance: textfield;
   height: 50px;
   width: 175px;
-  border: 2px solid #d6e2f0;
+  border: 2px solid #dbdbdb;
   border-radius: 15px;
   margin-top: 5px;
   padding-left: 10px;
@@ -148,7 +149,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__month input.invalid {
-  border: 2px solid red;
+  border: 2px solid #f08080;
 }
 
 @media (max-width: 950px) {
@@ -159,7 +160,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__year {
-  color: #7b879d;
+  color: #716f6f;
   flex-direction: column;
   margin-left: 30px;
   font-size: 1.5rem;
@@ -178,7 +179,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
   appearance: textfield;
   height: 50px;
   width: 175px;
-  border: 2px solid #d6e2f0;
+  border: 2px solid #dbdbdb;
   border-radius: 15px;
   margin-top: 5px;
   padding-left: 10px;
@@ -187,7 +188,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 }
 
 .form__input__year input.invalid {
-  border: 2px solid red;
+  border: 2px solid #f08080;
 }
 
 @media (max-width: 950px) {
@@ -200,7 +201,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 .form__trait {
   height: 4px;
   width: 700px;
-  background-color: #d6e2f0;
+  background-color: #dbdbdb;
   position: absolute;
   top: 198px;
   left: 60px;
