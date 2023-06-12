@@ -2,7 +2,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
-  font-family: Outfit, sans-serif;
+  font-family: Poppins, sans-serif;
   display: flex;
 }
 
@@ -246,7 +246,7 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 @media (max-width: 950px) {
   .form__btn button {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 400i;
   }
 }
 
@@ -275,13 +275,13 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 
 .date__year p {
   margin: 0;
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 700;
 }
 
 @media (max-width: 950px) {
   .date__year p {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -302,13 +302,13 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 
 .date__month p {
   margin: 0;
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 700;
 }
 
 @media (max-width: 950px) {
   .date__month p {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -329,13 +329,13 @@ input::-o-inner-spin-button, input::-o-outer-spin-button {
 
 .date__day p {
   margin: 0;
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 700;
 }
 
 @media (max-width: 950px) {
   .date__day p {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
 }
 
